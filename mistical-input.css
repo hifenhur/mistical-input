@@ -1,0 +1,41 @@
+.mistical{
+  border: 2px solid;
+  animation-duration: 1s;
+  animation-name: colorize;
+  animation-iteration-count: infinite;
+}
+
+@keyframes colorize {
+  0% {
+    border-top-color: #FF4040;
+    border-right-color: #FF9640;
+    border-bottom-color: #33CCCC;
+    border-left-color: #39E639;
+  }
+
+  25% {
+    border-top-color: #39E639;
+    border-right-color: #FF4040;
+    border-bottom-color: #FF9640;
+    border-left-color: #33CCCC;
+  }
+  50% {
+    border-top-color: #33CCCC;
+    border-right-color: #39E639;
+    border-bottom-color: #FF4040;
+    border-left-color: #FF9640;
+  }
+  75% {
+    border-top-color: #FF9640;
+    border-right-color: #33CCCC;
+    border-bottom-color: #39E639;
+    border-left-color: #FF4040;
+  }
+  100% {
+    border-top-color: #FF4040;
+    border-right-color: #FF9640;
+    border-bottom-color: #33CCCC;
+    border-left-color: #39E639;
+  }
+  
+}
